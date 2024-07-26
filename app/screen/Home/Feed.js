@@ -90,7 +90,7 @@ export default function DrawerExample() {
           top: 0,
           left: 0,
           right: 0,
-          backgroundColor: 'red',
+          backgroundColor: 'while',
           zIndex: 1,
           height: 60,
           justifyContent: 'center',
@@ -99,8 +99,7 @@ export default function DrawerExample() {
       >
         <Pressable
           onPress={() => setOpen((prevOpen) => !prevOpen)}
-          style={{ backgroundColor: 'blue', width: 25, marginRight: 25 }}
-        >
+          style={{ width: 25, marginRight: 25 }}>
           <Ionicons name={'menu'} size={24} color="black" style={{ marginRight: 30 }} />
         </Pressable>
         <TextInput
